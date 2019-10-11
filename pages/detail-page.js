@@ -17,5 +17,12 @@ function submitComment() {
     comment.appendChild(h3)
     comment.appendChild(p)
 
+    const commentSection = document.getElementById('comments')
+    commentSection.appendChild(comment)
+
+    inputField.value = null
+    textArea.value = null
+
+
     
   }
